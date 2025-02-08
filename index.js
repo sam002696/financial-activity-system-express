@@ -8,7 +8,7 @@ const server = http.createServer(app);
 
 // Enabling CORS for all origins
 const corsOptions = {
-  origin: "http://localhost:4200", // Replace with the correct frontend URL
+  origin: "http://localhost:4200",
   methods: ["GET", "POST"],
   allowedHeaders: ["Content-Type"],
   credentials: true,
